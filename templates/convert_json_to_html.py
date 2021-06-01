@@ -4,7 +4,7 @@ from logging import getLogger
 from pathlib import Path
 from string import Template
 
-from templates import index_header, index_content, index_footer, table_page
+from .templates import index_header, index_content, index_footer, table_page
 
 logger = getLogger(__name__)
 
