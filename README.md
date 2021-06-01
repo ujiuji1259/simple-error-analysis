@@ -6,19 +6,21 @@ json形式の出力結果をhtml形式に変換するリポジトリです。主
 
 ## 使い方
 ### tableデータ
-入力フォーマット
+Entity linkingのような、１入力に対して複数の答えを見たい場合に有用です。  
+- 入力フォーマット
 ```
 {
     "ID": 0,
     "title": "データ0",
     "meta": {
-        "pred": "True",
-        "true": "False"},
+        "is_true": "True",
+        "mention": "input_mention"},
     "data": [
-        {"data": "hello", "score": 0.5},
-        {"data": "way", "score": 0.1}
+        {"entity": "candidate_1", "score": 0.5},
+        {"entity": "candidate_2", "score": 0.1}
     ]
 }
 ```
 
+- コマンド
 `table-converter /path/to/input_json.jsonl /path/to/output_dir`
