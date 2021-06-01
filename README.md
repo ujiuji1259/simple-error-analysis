@@ -16,5 +16,9 @@ json形式の出力結果をhtml形式に変換するリポジトリです。主
         "true": "False"},
     "data": [
         {"data": "hello", "score": 0.5},
-        {"data": "way", "score": 0.1}]}
+        {"data": "way", "score": 0.1}
+    ]
+}
 ```
+
+`table-converter /path/to/input_json.jsonl /path/to/output_dir`
