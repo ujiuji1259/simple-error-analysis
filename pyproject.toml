@@ -5,7 +5,7 @@ description = ""
 authors = ["ujiuji1259 <suzzz428@gmail.com>"]
 
 [tool.poetry.scripts]
-table-converter = "templates:main.convert_table"
+table-converter = "simple_error_analysis:main.convert_table"
 
 [tool.poetry.dependencies]
 python = "^3.9"
