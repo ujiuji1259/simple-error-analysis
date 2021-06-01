@@ -21,7 +21,8 @@ Entity linkingのような、１入力に対して複数の答えを見たい場
     ]
 }
 ```
-基本的に`meta`や`data`のkeyは任意です。全てのデータで揃えるようにしてください。
+基本的に`meta`や`data`のkeyは任意です。全てのデータで揃えるようにしてください。  
+`ID`と`title`は省略できます。
 
 - コマンド  
 `table-converter /path/to/input_json.jsonl /path/to/output_dir`
