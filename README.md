@@ -22,5 +22,5 @@ Entity linkingのような、１入力に対して複数の答えを見たい場
 }
 ```
 
-- コマンド
+- コマンド  
 `table-converter /path/to/input_json.jsonl /path/to/output_dir`
